@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: #5656ee;
+    padding: 40px 40px; 
+}
+#img2{
+    float: right;
+    margin: 10px;
+}
+#img3{
+    float: left;
+    margin: 10px;
+}
+#img4{
+    float: right;
+    margin: 10px;
+}
+#img5{
+    float: left;
+    margin: 10px;
+}
+#div1{
+    background-image: url(doctor1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#b1{
+    background-color: #5656ee;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer; 
+    font-weight: bolder;
+}
+#div2{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.dropdown{
+    color: black;
+    position: absolute;
+    display: inline-block;
+    padding: 20px 20px; 
+}
+.content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    background-color:rgba(239, 241, 235, 0.819);
+    box-shadow: 3px 3px 5px;
+}
+.content{
+    display: none;
+}
+.dropdown:hover .content{
+    display: block;
+}
+#b1:hover{
+    background-color: blue;
+}
+.content a:hover{
+    background-color: rgba(140, 142, 136, 0.819);
+
+}
+.box1{
+    background-color:rgba(239, 241, 235, 0.819);
+    box-shadow: 3px 3px 5px;
+    display: flow-root;
+    margin: right;
+}
+.box2{
+    background-color:rgba(239, 241, 235, 0.819);
+    box-shadow: 3px 3px 5px;
+    display: flow-root;
+}
+.box3{
+    background-color:rgba(239, 241, 235, 0.819);
+    box-shadow: 3px 3px 5px;
+    display: flow-root;
+    margin: left;
+}
+.box4{
+    background-color:rgba(239, 241, 235, 0.819);
+    box-shadow: 3px 3px 5px;
+    display: flow-root;
+}
+.box5{
+    background-color: blue;
+    color: white;
+    padding: 20px 20px;
+    display: block;
+    
+}
+.box6 ul{
+    list-style-type: none;
+    display: inline;
+}
+.box6 li:hover{
+    background-color: blue;
+}
+
+.box6{
+    display: inline-block;
+    padding: 30px;
+}
+.box7{
+    background-color: #5656ee;
+}
+.box8{
+    float: right;
+}
+big{
+    font-weight: bold;
+}
+h2{
+    color: blue;
+    margin: 10px;
+}
+h1{
+    color: blue;
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
