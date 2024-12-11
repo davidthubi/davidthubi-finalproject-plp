@@ -145,3 +145,17 @@ ul li a:hover{
 ul li:hover ul.dropdown{
     display: block;
 }
+.social ul{
+    list-style: none;
+    padding: 10px;
+    background-color: #5656ee;
+    
+}
+#social li{
+    padding: 5px;
+    display: inline-block;
+}
+.social{
+    justify-content: center;
+    display: flex;
+}
