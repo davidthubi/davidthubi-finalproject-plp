@@ -4,6 +4,9 @@ body{
 header{
     background-color: #5656ee;
     padding: 40px 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #img2{
     float: right;
@@ -39,34 +42,10 @@ header{
 #div2{
     display: inline-block;
     padding: 20px 20px;
-}
-.dropdown{
-    color: black;
-    position: absolute;
-    display: inline-block;
-    padding: 20px 20px; 
-}
-.content a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    position: relative;
-    padding: 10px 15px;
-    background-color:rgba(239, 241, 235, 0.819);
-    box-shadow: 3px 3px 5px;
-}
-.content{
-    display: none;
-}
-.dropdown:hover .content{
-    display: block;
+    justify-content: flex-end;
 }
 #b1:hover{
     background-color: blue;
-}
-.content a:hover{
-    background-color: rgba(140, 142, 136, 0.819);
-
 }
 .box1{
     background-color:rgba(239, 241, 235, 0.819);
@@ -108,6 +87,7 @@ header{
 .box6{
     display: inline-block;
     padding: 30px;
+    mix-blend-mode: multiply;
 }
 .box7{
     background-color: #5656ee;
@@ -128,4 +108,40 @@ h1{
 }
 p{
     margin: 10px;
+}
+.logo{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+*{
+    text-decoration: none;
+}
+#l1{
+    list-style: none;
+}
+#l1{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    background-color: #5656ee;
+    padding: 20px 20px;
+}
+ul li a:hover{
+    background-color: #6363ed;
+}
+ul li:hover ul.dropdown{
+    display: block;
 }
