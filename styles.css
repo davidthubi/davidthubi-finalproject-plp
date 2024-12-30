@@ -159,3 +159,9 @@ ul li:hover ul.dropdown{
     justify-content: center;
     display: flex;
 }
+#sp{
+    display: inline-block;
+}
+#sp ul{
+    list-style-type: none;
+}
