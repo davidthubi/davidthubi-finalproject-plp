@@ -36,6 +36,136 @@
     </header>
     <br>
 </div>
+
+<div class="pp">
+    <form action="" method="get/post">
+        <h2>Appointments bookings</h2>
+        <label for="name">name</label>
+        <input type="text" id="name" name="fullname" placeholder="enter your fullname" required>
+        <br>
+        <br>
+        <label for="id">id</label>
+        <input type="number" id="identification-number" name="id" placeholder="eg.12345678" required>
+        <br>
+        <br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="mail@example.com" required>
+        <br>
+        <br>
+        <label for="d.o.b">d.o.b</label>
+        <input type="date" id="d.o.b" name="d.o.b" placeholder="mm/dd/yyyy" required>
+        <br>
+        <br>
+        <label for="passport">passport</label>
+        <input type="file" id="passport" name="passport" accept="image">
+        <br>
+        <br>
+        <label for="hospital">hospital</label>
+        <select id="hospital" name="hospital">
+            <option>select hospital</option>
+            <option>kiambu</option>
+            <option>nairobi</option>
+            <option>mombasa</option>
+            <option>kisumu</option>
+            <option>samburu</option>
+        </select>
+        <p id="p-3">Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        <br>
+        <br>
+        <button type="submit">submit</button>
+        <input id="i-1" type="reset" value="clear form">
+</div>
+<div class="pp">
+    <br>
+</form>
+    <h2 id="p-2">Registration Form</h2>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <br>
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="100" required>
+        <br>
+        <br>
+
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        <br>
+        <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option>Select your county</option>
+            <option>kiambu</option>
+            <option>nyeri</option>
+            <option>nairobi</option>
+            <option>samburu</option>
+            <option>marsabit</option>
+            <option>kisumu</option>
+            <option>bumgoma</option>
+            <option>kisii</option>
+        </select>
+        <br>
+        <br>
+
+        <label>
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the Terms and Conditions
+        </label>
+        <br>
+        <br>
+        <input id="i-1" type="submit" value="Register">
+        <br>
+        <br>
+    </form>
+</div>
+<div class="pp">
+    <br>
+    <br>
+    <h2 id="p-2">Login Form</h2>
+    <form id="loginForm">
+        <label for="loginEmail">Email:</label>
+        <input type="email" id="loginEmail" name="loginEmail" required>
+        <br>
+        <br>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="loginPassword" required>
+        <br>
+        <br>
+        <input id="i-1" type="submit" value="Login">
+    </form>
+</div>
+<div id="pp1">
+    <div id="pp2">
+        <h2>patient portal</h2>
+        <button>Registration Form</button>
+        <button>Login</button>
+        <button>Booking</button>
+    </div>
+</div>
 <div class="social">
     <ul id="social">
         <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>

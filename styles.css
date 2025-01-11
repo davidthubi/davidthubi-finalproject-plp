@@ -165,3 +165,27 @@ ul li:hover ul.dropdown{
 #sp ul{
     list-style-type: none;
 }
+#ct ul{
+    list-style-type: none;
+}
+#ct{
+    background-color: #6363ed;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.pp {
+    background-color: #6363ed;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 40px;
+    padding: 20px;
+}
+#pp1{
+    background-color: #6363ed;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
